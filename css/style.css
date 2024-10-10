@@ -13,15 +13,20 @@ main {
 }
 
 .buttons button {
-    padding: 10px;
-    background-color: cornsilk;
+    padding: 8px;
+    background-color: royalblue;
+    color: white;
     font-size: 1.5rem;
     font-weight: bold;
-    border-radius: 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .buttons button:active {
-    background-color: royalblue;
+    background-color: black;
+    border-radius: 0;
+    transform: scale(95%);
 }
 
 

@@ -19,6 +19,6 @@ document.getElementById('mul-btn').addEventListener('click', function(){
 })
 document.getElementById('div-btn').addEventListener('click', function(){
      let div = inputText[0].value / inputText[1].value;
-     const divTofixed = div.toFixed(2);
+     const divTofixed = div.toFixed(1);
      resultShow.textContent = ` ${divTofixed}`;
 })
